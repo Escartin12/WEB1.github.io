@@ -1,0 +1,140 @@
+body {
+    background-color:palevioletred;
+}
+
+.title1 {
+    font-size:34pt;
+    text-align: center;
+    margin-top:2%;
+    margin-bottom:1%;
+    color: palevioletred;
+}
+
+.MainSection1 {
+    height:500px;
+    width:50%;
+    background-color:black;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-top:2%;
+    border: 1px solid;
+    color:white;
+    }
+    
+
+.imgLogo {
+margin-left:47.5%;
+width:5%;
+    }
+
+    .LogoText1 {
+        margin-left:40%;
+        color: palevioletred;
+        
+    }
+    
+    .Username1 {
+       float: left;
+    margin-left:36.1%;
+    clear: left;
+    width: 25%;
+    height: 5%;
+    margin-bottom:1%;
+    
+    } .Password1 {
+       float: right; 
+    margin-right: 38%; 
+    clear: left;
+    width: 25%;
+    height: 5%;
+    margin-bottom:1%;
+    margin-top: 0pt;
+
+    } 
+    
+    .button11 {
+        margin-left: 35%;
+        height:20pt;
+        border-radius:2px 2px;
+        clear: both;
+        margin-top:2%;
+        border-radius:10px 10px;
+    }
+    .button22 {
+        margin-left: 3%;
+        height:20pt;
+        border-radius:10px 10px;
+       
+        margin-top:2%;
+    }
+    .Login1 {
+        clear: both;
+        margin-left: 35%;
+        height:20pt;
+        border-radius:2px 2px;
+        width:30%;
+        margin-top:5%;
+        background-color: palevioletred;
+        color: white;
+        float: left;
+        margin-bottom:3%;
+    }
+    .link1 {
+        color: white;
+        clear: both;
+        
+       margin-left:41%;
+        margin-top:10%;
+    }
+  .DarkTheme1 { 
+    float: right;
+    margin-right: 10%;
+    background-color:white;
+    border-radius:8px 8px;
+    font-size:12pt;
+    
+  }  
+@media (max-width: 375px)
+ {
+    body{
+        background-color: blue;
+    }
+
+ }
+ 
+@media (max-width: 768px)
+ {
+    body{
+        background-color: palevioletred;
+    }
+    .button11{
+        margin-left : 30%;
+    }
+    .link1{
+        float: right;
+        width:40%;
+        text-align: center;
+        margin: 0 auto 20px auto;
+        clear: both;
+    }
+    .Password1 {
+       margin-right: 37.67%;
+    }
+   .DarkTheme1{
+    clear: both;
+    
+   }
+  .MainSection1, .MainSectionR {
+    float: none;
+    width: 80%;
+    margin-left: 10%;
+    
+  }
+  .LogoText1 {
+    margin-left:34.4%;
+  }
+  
+ }
+
+
+ 

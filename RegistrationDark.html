@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styleR.css">
+    </head>
+    <body>
+        <form action="http://www.no-where.com/formhandler.php">
+        <div class="MainSectionRD">
+        <p class="title"> <b> Y Register form</b> </p>
+        <img src="darkLogo1.png" alt="Y Logo" class="imgLogo">
+        <p class="LogoText"> <b>Register a new account</b></p>
+        <input type="Text" class="FirstName" pattern="(?=.*[a-z]).{2,}" required placeholder="First Name"> 
+         <input type="Text" class="LastName" required placeholder="Last Name"> 
+         <input type="Text" class="Username" required placeholder="Username"> 
+         <input type="tel" class="PhoneNumber" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}" required placeholder="Phone number"> 
+         <input type="email" class="Email" required placeholder="Email"> 
+         <input type="password" class="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one upper and lowercase,
+                 and at least 8 or more characters" required placeholder="Password"> 
+         <input type="password" class="ConfirmPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one upper and lowercase,
+                 and at least 8 or more characters" required placeholder="Confirm Password">
+         <label for="DateOfBirth" class="DateOfBirth">Date of Birth</label> 
+         <input type="date" class="DateOfBirth1" required placeholder="Date of Birth"> 
+         <fieldset class="GenderName"><p>Gender<p>
+         <input type="checkbox" name="gender1" value="Male" id="Male">
+         <label for="Male">Male</label> 
+         <input type="checkbox" name="gender2" value="Female" id="Female">
+         <label for="Female">Female</label> 
+         <input type="checkbox" required name="gender3" value="Different" id="Different">
+         <label for="Different">Different</label>
+        
+         </fieldset>
+         <fieldset class="Language"><p> Language</p>
+         <select name="Language" class="language"> 
+            <label for="Language">Language</label>
+            <option value="English" required name="English">English</option>
+            <option value="Polish">Polish</option>
+            <option value="Romanian">Romanian</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Italian">Italian</option>
+         </select>
+         </fieldset>
+         <input type="Text" class="Country" required placeholder="Country"> 
+         <input type="Text" class="Adress" required placeholder="Adress"> 
+         <input type="Text" class="PostalCode" required placeholder="Postal Code"> 
+         <button type="button" class="ToS"> <a href="terms.html" target="blank">Terms of service</a></button>
+         <button type="button" class="PP"><a href="privacy.html" target="blank">Privacy Policy</a></button>
+         <input type="submit" value="Register" class="Login"></input>
+                        <button type="button" class="DarkTheme"> <a href="Registration.html"> Dark theme</a></button>
+
+        <a href="index.html" class="linkRD">I already have an account</a>
+        </form>
+    </body>
